@@ -30,7 +30,7 @@ Ich habe schon in Vorbereitung zu der Projektarbeit mir viel Material angeguckt,
 
 ## <a name="einrichtung"></a> Einrichtung der Tools 
 
-Als wir am **31.1** mit der Arbeit angefangen haben, habe ich erst mal das Github repo entsprechend mit dem skeleton eingerichtet. Ebenfalls habe ich ein Project board zum managen von todos eingerichtet. In der restlichen Stunde habe ich mir von der bestehenden Ako Forum Seite einen Überblick verschafft und schon ein paar Konzept Ideen für die Landing Page auf meinem iPad entwickelt. 
+Als wir am **31.1** mit der Arbeit angefangen haben, habe ich erst mal das Github repo entsprechend mit dem Skeleton eingerichtet. Ebenfalls habe ich ein Project Board zum managen von Todos eingerichtet. In der restlichen Stunde habe ich mir von der bestehenden Ako Forum Seite einen Überblick verschafft und schon ein paar Konzept Ideen für die Landing Page auf meinem iPad entwickelt. 
 
 --- 
 
@@ -38,7 +38,7 @@ Als wir am **31.1** mit der Arbeit angefangen haben, habe ich erst mal das Githu
 
 ## Erstes Kundengespräch
 
-Am **Mittwoch, 1.2** hatte ich mein Erstes Gespräch mit Herrn Tabatabei. Dort haben wir ersteinmal die bestehende Ako Forum Seite besprochen, welche Funktionalitäten wichtig sind und welche verbessert werden könnten. Hierbei hat sich für mich Folgendes ergeben: <a name="vorraussetzungen"></a>
+Am **Mittwoch, 1.2** hatte ich mein Erstes Gespräch mit Herrn Tabatabei. Dort haben wir ersteinmal die bestehende Ako Forum Seite besprochen, welche Funktionalitäten wichtig sind und welche verbessert werden könnten. Hierbei hat sich für mich Folgendes ergeben: <a name="voraussetzungen"></a>
 
 - Die bestehende Webseite ist klaglos veraltet und besteht nur noch aus einem veralteten WordPress Projekt und existiert schon lange Jahre. 
 - Die Hauptfunktionalität der Seite für das Ako Forum selber ist die Anmeldung. Diese verläuft über einen eMail Automatismus, einmal an das Forum und dann an an den Kunden
@@ -54,10 +54,10 @@ Für mich heißt das, dass ich einen Weg finden muss den einfachen Zugang für d
 
 In Anschluss an diese Gespräch habe ich am Nachmittag ein erstes schnelles wireframe für die Landing page in Adobe XD entwickelt um eine Idee zu kriegen, wo ich mit welchen Farben arbeiten könnte. Auf Typographie habe ich hier erst einmal keine Rücksicht genommen. 
 
-![Der 1. entwurf der Landing Page in XD](./forumErstesWireframe.png)
+![Der 1. Entwurf der Landing Page in XD](./forumErstesWireframe.png)
 
 ---
 
 ## Stunde vom **2.2**
 
-In der Stunde habe ich mich informiert, welche Tools ich benutzen möchte, um die vorher genannten [Vorraussetzungen](#vorraussetzungen) zu erfüllen. Hierbei habe ich mich dazu entschieden eine Wordpress Seite zu benutzen, damit man über templates u.Ä. neuen Kontent einfach hinzufügen kann. Auch die eMail automation kann man über diese tool einrichten. 
+In der Stunde habe ich mich informiert, welche Tools ich benutzen möchte, um die vorher genannten [Voraussetzungen](#vorraussetzungen) zu erfüllen. Hierbei habe ich mich dazu entschieden eine WordPress Seite zu benutzen, damit man über templates u.Ä. neuen Content einfach hinzufügen kann. Auch die eMail Automation kann man über diese Tool einrichten. Allerdings werde ich erst mal die Seite manuell designen und developen. 
