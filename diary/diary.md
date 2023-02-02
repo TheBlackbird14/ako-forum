@@ -53,4 +53,4 @@ Für mich heißt das, dass ich einen Weg finden muss den einfachen Zugang für d
 
 In Anschluss an diese Gespräch habe ich am Nachmittag ein erstes schnelles wireframe für die Landing page in Adobe XD entwickelt um eine Idee zu kriegen, wo ich mit welchen Farben arbeiten könnte. Auf Typographie habe ich hier erts einmal keine Rücksicht genommen. 
 
-![Der 1. entwurf der Landing Page in XD](./forumErstesWireframe.png)
+![Der 1. entwurf der Landing Page in XD](./Ako%20forum%20landing%20page%20erser%20entwurf.png)
