@@ -10,10 +10,11 @@
     - [Vorarbeit/Vorwissen](#vorwissen)
     - [Einrichtung der Tools](#einrichtung)
 2. Konzept Phase
-    - Erstes Kundengespräch
-    - Erstes Wireframe
-    - Stunde vom **2.2**
+    - [Erstes Kundengespräch](#Kundengespräch)
+    - [Erstes Wireframe](#firstWireframe)
 3. Design Phase
+    - [Stunde vom **2.2**](#2.2)
+    - [**3 - 5** Februar](#3.2-5.2)
 4. Developing Phase
 5. Integration Phase
 6. Veröffentlichung
@@ -36,7 +37,7 @@ Als wir am **31.1** mit der Arbeit angefangen haben, habe ich erst mal das Githu
 
 # Konzept Phase
 
-## Erstes Kundengespräch
+## Erstes Kundengespräch <a name="Kundengespräch"></a>
 
 Am **Mittwoch, 1.2** hatte ich mein Erstes Gespräch mit Herrn Tabatabei. Dort haben wir ersteinmal die bestehende Ako Forum Seite besprochen, welche Funktionalitäten wichtig sind und welche verbessert werden könnten. Hierbei hat sich für mich Folgendes ergeben: <a name="voraussetzungen"></a>
 
@@ -50,7 +51,7 @@ Für mich heißt das, dass ich einen Weg finden muss den einfachen Zugang für d
 
 ---
 
-## Erstes Wireframe
+## Erstes Wireframe <a name="firstWireframe"></a>
 
 In Anschluss an diese Gespräch habe ich am Nachmittag ein erstes schnelles wireframe für die Landing page in Adobe XD entwickelt um eine Idee zu kriegen, wo ich mit welchen Farben arbeiten könnte. Auf Typographie habe ich hier erst einmal keine Rücksicht genommen. 
 
@@ -58,13 +59,13 @@ In Anschluss an diese Gespräch habe ich am Nachmittag ein erstes schnelles wire
 
 ---
 
-## Stunde vom **2.2**
+## Stunde vom **2.2** <a name="2.2"></a>
 
 In der Stunde habe ich mich informiert, welche Tools ich benutzen möchte, um die vorher genannten [Voraussetzungen](#vorraussetzungen) zu erfüllen. Hierbei habe ich mich dazu entschieden eine WordPress Seite zu benutzen, damit man über templates u.Ä. neuen Content einfach hinzufügen kann. Auch die eMail Automation kann man über diese Tool einrichten. Allerdings werde ich erst mal die Seite manuell designen und developen. 
 
 ---
 
-## 3 - 5 Februar
+## 3 - 5 Februar <a name="3.2-5.2"></a>
 
 An diesem Wochenende habe ich die Landing page weiter designed damit man darunter die Kurskategorien auswählen kann:
 
