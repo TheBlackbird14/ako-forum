@@ -61,3 +61,15 @@ In Anschluss an diese Gespräch habe ich am Nachmittag ein erstes schnelles wire
 ## Stunde vom **2.2**
 
 In der Stunde habe ich mich informiert, welche Tools ich benutzen möchte, um die vorher genannten [Voraussetzungen](#vorraussetzungen) zu erfüllen. Hierbei habe ich mich dazu entschieden eine WordPress Seite zu benutzen, damit man über templates u.Ä. neuen Content einfach hinzufügen kann. Auch die eMail Automation kann man über diese Tool einrichten. Allerdings werde ich erst mal die Seite manuell designen und developen. 
+
+---
+
+## 3 - 5 Februar
+
+An diesem Wochenende habe ich die Landing page weiter designed damit man darunter die Kurskategorien auswählen kann:
+
+![Kurskategorien Auswahl](./assets/kurseAuswahlDesign.png)
+
+Zusätzlich habe ich auch noch die templates für die daran anhängenden Seiten entworfen, wo man dann eine Kurze kursübersicht zu allen Kursen in der Kategorie kriegt und dann zu dem Kurs weitergehen kann.
+
+![Kursauswahl](./assets/offenesForumDesign.png)
