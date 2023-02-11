@@ -1,3 +1,6 @@
+
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -24,7 +27,6 @@ header {
 .navLinks {
   list-style: none;
   right: 20px;
-  margin-inline-end: 140px;
 }
 
 .navLinks li {
@@ -40,4 +42,19 @@ header {
   color: #FFFFFF;
   opacity: 1;
   text-decoration: none;
+}
+
+.nav {
+  margin-right: 5%;
+}
+
+
+h1 {
+  padding-top: 256px;
+  padding-left: 679px;
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #18BF12;
+  font-size: 200px;
 }
