@@ -48,13 +48,34 @@ header {
   margin-right: 5%;
 }
 
+.hero {
+  background-image: url(./assets/imgs/bgImage.png);
+}
+
 
 h1 {
-  padding-top: 256px;
-  padding-left: 679px;
+  padding-top: 119px;
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 35%;
   font-family: "myriad-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #18BF12;
   font-size: 200px;
+}
+
+h2 {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ABC6AA;
+  font-size: 75px;
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 35%;
+}
+
+.butLText {
+  text-transform: capitalize;
 }
