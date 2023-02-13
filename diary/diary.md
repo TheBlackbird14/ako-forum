@@ -16,6 +16,7 @@
     - [Stunde vom **2.2**](#2.2)
     - [**3 - 5** Februar](#3.2-5.2)
 4. Developing Phase
+    - [**10 - 12** Februar](#)
 5. Integration Phase
 6. Veröffentlichung
 
@@ -74,3 +75,15 @@ An diesem Wochenende habe ich die Landing page weiter designed damit man darunte
 Zusätzlich habe ich auch noch die templates für die daran anhängenden Seiten entworfen, wo man dann eine Kurze kursübersicht zu allen Kursen in der Kategorie kriegt und dann zu dem Kurs weitergehen kann.
 
 ![Kursauswahl](./assets/offenesForumDesign.png)
+
+---
+
+## 10 - 12 Februar <a name="10-12.2"></a>
+
+An diesem Wochenende habe aufgrund der sich immer näher rückenden Deadline mit dem Developement Prozess angefangen. Hierbei habe ich mich dazu entschieden nur eine Seite zu entwickeln, da ich sonst keine Zeit dazu habe. 
+In den drei Tagen habe ich es geschafft den CSS Flex header zu schreiben und den Hero (die titelseite) angefangen, obwohl ich hier bis auf den Titel nicht weit gekommen bin. 
+
+Ich habe dazu noch keine Seite auf Github Pages veröffentlicht, weil ich meine Seite zu den HTML tags noch online halten will. So sieht es aber bisher aus:
+
+![bestehende Website Hero Section Abschnitt](./assets/imgs/AkoForumDevPreviewHero1)
+
