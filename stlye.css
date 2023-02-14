@@ -11,27 +11,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 137px;
+  height: 12.685vw;
   background: #80A62E 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
 }
 
 .logo {
   cursor: pointer;
-  width: 105px;
-  height: 125px;
+  width: 9.7222vw;
+  height: 11.574vw;
   margin-left: 10%;
 
 }
 
 .navLinks {
   list-style: none;
-  right: 20px;
+  right: 1.041vw;
 }
 
 .navLinks li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 1.041vw;
  
 }
 
@@ -49,20 +49,31 @@ header {
 }
 
 .hero {
-  background-image: url(./assets/imgs/bgImage.png);
+  background-image: url(./assets/vektors/shader.svg), url(./assets/imgs/bgImage.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
-h1 {
+.title {
   padding-top: 119px;
   text-align: left;
   padding-right: 5%;
   padding-left: 35%;
+}
+
+h1 {
   font-family: "myriad-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #18BF12;
-  font-size: 200px;
+  font-size: 10.41667vw;
+}
+
+.subTitle {
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 35%;
+  padding-bottom: 22px;
 }
 
 h2 {
@@ -71,11 +82,15 @@ h2 {
   font-style: normal;
   color: #ABC6AA;
   font-size: 75px;
-  text-align: left;
-  padding-right: 5%;
-  padding-left: 35%;
 }
 
 .butLText {
   text-transform: capitalize;
+}
+
+.butL {
+  width: 11.5625%;
+  height: 4.1667%;
+  background: #80A62E 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
 }
