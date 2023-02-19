@@ -82,11 +82,54 @@ Zusätzlich habe ich auch noch die templates für die daran anhängenden Seiten 
 ## 10 - 12 Februar <a name="10-12.2"></a>
 
 An diesem Wochenende habe aufgrund der sich immer näher rückenden Deadline mit dem Developement Prozess angefangen. Hierbei habe ich mich dazu entschieden nur eine Seite zu entwickeln, da ich sonst keine Zeit dazu habe. 
-In den drei Tagen habe ich es geschafft den CSS Flex header zu schreiben und den Hero (die titelseite) angefangen, obwohl ich hier bis auf den Titel nicht weit gekommen bin. So sieht es aber bisher aus:
+In den drei Tagen habe ich den CSS flex header geschrieben und den Hero (die titelseite) angefangen, obwohl ich hier bis auf den Titel nicht weit gekommen bin. So sieht es aber bisher aus:
 
 ![bestehende Website Hero Section Abschnitt](./assets/AkoForumDevPreviewHero1.png)
+
+Besonders der flex header ist eher kompliziert da das CSS flexbox Modell nicht immer das macht was man möchte. Im ende hat ungefähr das hier für mich funktioniert. 
+
+```css
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12.685vw;
+}
+
+.navLinks {
+  list-style: none;
+  right: 1.041vw;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0 1.041vw;
+ 
+}
+```
 
 ---
 
 ## 13 - 15 Februar <a name="13-15.2"></a>
 
+An den paar Tagen vor den Karnevalsferien habe ich hauptsächlich an daran gearbeitet, die Seite responsive zu machen, also dafür sorgen, dass die Inhalte auf allen bildschirmgrößen adäquat dargestellt werden kann. Hierzu muss ich im CSS code alle werte die eine feste Anzahl sind (px, cm, in) ersetzen durch eine relative (%, vw, rem). Dann habe ich beispielsweise statt diesem code:
+
+```css
+.logo {
+  width: 105px;
+  height: 125px;
+  padding-left: 140px;
+}
+```
+
+diesen code:
+
+```css
+.logo {
+  width: 9.722vw;
+  height: 11.574vw;
+  margin-left: 7.29167vw;
+}
+```
+
+Dies macht die Website viel zugänglicher für Alle und ist einfacher von Anfang an einzuführen, weil zurück gehen und alle werte ersetzen, dann wenn es nötig ist, keine einfache und fehlerlose Lösung ist. 
