@@ -1,11 +1,10 @@
-
-
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;  
 }
+
+/*header and nav bar*/
 
 header {
   display: flex;
@@ -48,6 +47,8 @@ header {
 .nav {
   margin-right: 5%;
 }
+
+/*hero section*/
 
 .hero {
   background-image: url(./assets/vektors/shader.svg), url(./assets/imgs/bgImage.png);
@@ -94,4 +95,37 @@ h2 {
   height: 4.1667%;
   background: #80A62E 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
+}
+
+/*kursauswahl cards*/
+
+h3 {
+  font-family: "futura-pt";
+}
+
+.categorys {
+  display: flex;
+  gap: 4.9074074074vw;
+  padding: 5.8333333333vw 4.7222222222vw;
+}
+
+.card {
+  width: 29.7395833333vw;
+  cursor: pointer;
+  height: 76.6666667vw;
+}
+
+.offenes {
+  background-image: url(./assets/imgs/hockeySlideshow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gemeinschaft {
+  background-color: blue;
+  
+}
+
+.lernhaus {
+  background-color: green;
 }
