@@ -16,7 +16,8 @@
     - [Stunde vom **2.2**](#2.2)
     - [**3 - 5** Februar](#3.2-5.2)
 4. Developing Phase
-    - [**10 - 12** Februar](#)
+    - [**10 - 12** Februar](#10-12.2)
+    - [**13 - 15** Februar](#13-15.2)
 5. Integration Phase
 6. Veröffentlichung
 
@@ -81,9 +82,11 @@ Zusätzlich habe ich auch noch die templates für die daran anhängenden Seiten 
 ## 10 - 12 Februar <a name="10-12.2"></a>
 
 An diesem Wochenende habe aufgrund der sich immer näher rückenden Deadline mit dem Developement Prozess angefangen. Hierbei habe ich mich dazu entschieden nur eine Seite zu entwickeln, da ich sonst keine Zeit dazu habe. 
-In den drei Tagen habe ich es geschafft den CSS Flex header zu schreiben und den Hero (die titelseite) angefangen, obwohl ich hier bis auf den Titel nicht weit gekommen bin. 
+In den drei Tagen habe ich es geschafft den CSS Flex header zu schreiben und den Hero (die titelseite) angefangen, obwohl ich hier bis auf den Titel nicht weit gekommen bin. So sieht es aber bisher aus:
 
-Ich habe dazu noch keine Seite auf Github Pages veröffentlicht, weil ich meine Seite zu den HTML tags noch online halten will. So sieht es aber bisher aus:
+![bestehende Website Hero Section Abschnitt](./assets/AkoForumDevPreviewHero1.png)
 
-![bestehende Website Hero Section Abschnitt](./assets/imgs/AkoForumDevPreviewHero1)
+---
+
+## 13 - 15 Februar <a name="13-15.2"></a>
 
