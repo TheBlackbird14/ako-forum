@@ -10,17 +10,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 12.685vw;
+  height: 7.1354166667vw;
   background: #80A62E 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
 }
 
 .logo {
   cursor: pointer;
-  width: 9.7222vw;
-  height: 11.574vw;
+  width: 5.46875vw;
+  height: 6.5104166667vw;
   margin-left: 7.2916666667vw;
-
 }
 
 .navLinks {
@@ -51,13 +50,15 @@ header {
 /*hero section*/
 
 .hero {
-  background-image: url(./assets/vektors/shader.svg), url(./assets/imgs/bgImage.png);
+  background-image: url(./assets/imgs/bgImage.png);
+  background-color: rgba(0, 0, 0, 0.27);
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .title {
-  padding-top: 11.0185185185vh;
+  padding-top: 6.1979166667vw;
   text-align: left;
   padding-right: 5%;
   padding-left: 35%;
@@ -94,43 +95,63 @@ h2 {
 
 .butL {
   width: 11.5625vw;
-  height: 7.4074074074vh;
+  height: 4.1666666667vw;
   background: #80A62E 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   margin-left: 35%;
-  margin-bottom: 29.6296296296%;
+  margin-bottom: 16.6666666667vw;
 }
 
 /*kursauswahl cards*/
 
-h3 {
-  font-family: "futura-pt";
-}
-
 .categorys {
   display: flex;
-  gap: 4.9074074074vw;
-  padding: 5.8333333333vw 4.7222222222vw;
-  background-color: red;
+  gap: 2.7604166667vw;
+  padding: 5.8333333333vw 2.65625vw;
+  background-color: #80A62E;
 }
 
 .card {
   width: 29.7395833333vw;
   cursor: pointer;
-  height: 828px;
+  height: 43.125vw;
+}
+
+.card > h3 {
+  font-family: "futura-pt";
+  font-size: 5.2083333333vw;
+  color: #E8E8E8;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .offenes {
   background-image: url(./assets/imgs/hockeySlideshow.png);
+  background-color: rgba(0, 0, 0, 0.42);
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-position: 40%;
+  background-size: cover;
+  background-position: 38%;
 }
 
 .gemeinschaft {
-  background-color: blue;
-  
+  background-image: url(./assets/imgs/Orchester-Geigen.png);
+  background-color: rgba(0, 0, 0, 0.42);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.gemeinschaft > h3 {
+  font-size: 3.125vw;
 }
 
 .lernhaus {
-  background-color: green;
+  background-image: url(./assets/imgs/logoLernhaus.png);
+  background-color: rgba(0, 0, 0, 0.42);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40%;
 }
