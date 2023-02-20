@@ -133,3 +133,7 @@ diesen code:
 ```
 
 Dies macht die Website viel zugänglicher für Alle und ist einfacher von Anfang an einzuführen, weil zurück gehen und alle werte ersetzen, dann wenn es nötig ist, keine einfache und fehlerlose Lösung ist. 
+
+---
+
+## Montag 20 Februar 

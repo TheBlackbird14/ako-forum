@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -95,12 +99,16 @@ h2 {
   margin-bottom: 16.6666666667vw;
 }
 
+.button a {
+  text-decoration: none;
+}
+
 .Blarge {
   background: #80A62E 0% 0% no-repeat padding-box;
   margin-left: 35.3645833333vw;
 }
 
-.Blarge > p {
+.Blarge > a {
   text-transform: uppercase;
   color: white;
   font-family: Helvetica, sans-serif;
@@ -112,8 +120,9 @@ h2 {
   margin-left: 3.0729166667vw;
 }
 
-.Bsmall > p {
+.Bsmall > a {
   font-family: Helvetica, sans-serif;
+  color: black;
   font-style: bold;
   font-size: 1.5625vw;
 }
