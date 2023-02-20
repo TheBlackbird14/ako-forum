@@ -87,19 +87,35 @@ h2 {
   font-size: 3.90625vw;
 }
 
-.butLText {
+
+.button {
+  width: 11.5625vw;
+  height: 4.1666666667vw;
+  border: 1px solid #707070;
+  margin-bottom: 16.6666666667vw;
+}
+
+.Blarge {
+  background: #80A62E 0% 0% no-repeat padding-box;
+  margin-left: 35.3645833333vw;
+}
+
+.Blarge > p {
   text-transform: uppercase;
   color: white;
+  font-family: Helvetica, sans-serif;
   font-size: 1.8229166667vw;
 }
 
-.butL {
-  width: 11.5625vw;
-  height: 4.1666666667vw;
-  background: #80A62E 0% 0% no-repeat padding-box;
-  border: 1px solid #707070;
-  margin-left: 35%;
-  margin-bottom: 16.6666666667vw;
+.Bsmall{
+  background: #DEDEDE 0% 0% no-repeat padding-box;
+  margin-left: 3.0729166667vw;
+}
+
+.Bsmall > p {
+  font-family: Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 1.5625vw;
 }
 
 /*kursauswahl cards*/
