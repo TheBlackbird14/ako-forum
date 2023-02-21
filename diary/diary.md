@@ -18,6 +18,8 @@
 4. Developing Phase
     - [**10 - 12** Februar](#10-12.2)
     - [**13 - 15** Februar](#13-15.2)
+    - [**Montag 20 Februar**](#montag-20-februar)
+    - [**Dienstag 21 Februar**](#dienstag-21-februar)
 5. Integration Phase
 6. Veröffentlichung
 
@@ -27,7 +29,7 @@
 
 ## Vorarbeit/Vorwissen <a name="vorwissen"></a>
 
-Ich habe schon in Vorbereitung zu der Projektarbeit mir viel Material angeguckt, vor Allem zum Thema Design. Auf diese Thema wollte ich mich bei diesem Projekt fokussieren, da ich im Bereich des Web Developements schon eher erfahren war. Hierzu habe ich mir auf YouTube hauptsächlich eine Reihe zu dem Thema angeschaut, die von einem angeblich sehr erfahren Web Designer online zur Verfügung gestellt wurde. [Hier der Link.](https://www.youtube.com/playlist?list=PLXC_gcsKLD6n7p6tHPBxsKjN5hA_quaPI)
+Ich habe schon in Vorbereitung zu der Projektarbeit mir viel Material angeguckt, vor Allem zum Thema Design. Auf diese Thema wollte ich mich bei diesem Projekt fokussieren, da ich im Bereich des Web Developements schon mehr Erfahrung hatte. Hierzu habe ich mir auf YouTube hauptsächlich eine Reihe zu dem Thema angeschaut, die von einem angeblich sehr erfahren Web Designer online zur Verfügung gestellt wurde. [Hier der Link.](https://www.youtube.com/playlist?list=PLXC_gcsKLD6n7p6tHPBxsKjN5hA_quaPI)
 
 ---
 
@@ -78,6 +80,8 @@ Zusätzlich habe ich auch noch die templates für die daran anhängenden Seiten 
 ![Kursauswahl](./assets/offenesForumDesign.png)
 
 ---
+
+# Developing Phase
 
 ## 10 - 12 Februar <a name="10-12.2"></a>
 
@@ -165,4 +169,65 @@ Danach habe ich noch alle Links verbunden, also die im Header und natürlich die
 
 ## Dienstag 21 Februar
 
-Am Dienstag habe ich dann an dem Willkommens text gearbeitet. Diesen hatte ich im Design noch nicht vorgesehen, und war eine sehr spontane Entscheidung. Er ist jetzt auch noch über den Kurskategorieauswahl Karten und ist auf der bestehenden Seite nur klein auf der rechten Seite dargestellt. Nach einer kleinen Skizze habe ich mich dazu entschieden den text etwas dynamischer darzustellen. Das heißt in der ersten Absatz der Text links und ein Bild von Herrn Tabatabei rechts, im zweiten Absatz den text rechts und links der Abschnitt zum Film über das Ako, welcher auch auch der bestehenden Seite gezeigt war. Dies hat sich als etwas komplizierter dargestellt, als ich gedacht hatte. 
+Am Dienstag habe ich dann an dem Willkommens text gearbeitet. Diesen hatte ich im Design noch nicht vorgesehen, und war eine sehr spontane Entscheidung. Er ist jetzt auch noch über den Kurskategorieauswahl Karten und ist auf der bestehenden Seite nur klein auf der rechten Seite dargestellt. Nach einer kleinen Skizze habe ich mich dazu entschieden den text etwas dynamischer darzustellen. Das heißt in der ersten Absatz der Text links und ein Bild von Herrn Tabatabei rechts, im zweiten Absatz den text rechts und links der Abschnitt zum Film über das Ako, welcher auch auch der bestehenden Seite gezeigt war. Dies hat sich als etwas komplizierter dargestellt, als ich gedacht hatte. Nach einiger Frustration und ein bisschen Recherche, habe ich mich dazu entschieden, in dieser Situation `display: grid` zu benutzen. Es st ähnlich zu `display: flex`, hat aber einige entscheidende Unterschiede, die ich allerdings nicht im Detail erklären kann. 
+
+`display: grid` funktioniert wie ein Gitter. Zuerst muss man die Anzahl der Reihen und Spalten angeben und ihre entsprechende Größe. Zusätzlich kann man auch angeben, welche Distanz zwischen Reihen und Spalten sind. Das macht man so:
+
+```css
+.dynamicText {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0.52vw;
+}
+```
+
+`repeat(3, 1fr)` ist hier nur die Abkürzung für `1fr 1fr 1fr`. Ich habe mich hier für 3 Spalten entschieden, damit der Text zwei Spalten, also 2/3 der Breite einnimmt. Damit dies auch richtig funktioniert, und nicht das Bild aus der zweiten Spalte in die erste Rutscht, muss ich definieren, welches Element, welche Plätze einnimmt. Diese Zuordnung nennt man "Grid template areas". Zuerst benenne ich jedes Element, welches in meinem Grid vorhanden ist in seinem eigenen CSS mit `grid-area`. Dann beschreibe ich in dem CSS des `div`, welcher das Grid enthält, die Zuordnung der Abschnitte. Zusammen sieht es dann so aus:
+
+```css
+.dynamicText {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0.52vw;
+
+/* Hier definiere ich die Anordnung, so wie es aussehen würde */
+
+  grid-template-areas: 
+  "p p img"
+  "img2 p2 p2";
+
+/* Hier nehmen p und p2 jeweils zwei spalten nebeneinander ein */
+
+}
+
+/* Hier sind alle Abschnitte im Grid. Sie haben alle mit grid-area einen Namen zugeordnet, mit welchem sie oben Angeordnet werden */
+
+.text1 {
+  grid-area: p;
+}
+
+.text2 {
+  grid-area: p2;
+}
+
+.bildTabatabei {
+  grid-area: img;
+}
+
+.akoFilmAbschnitt {
+  grid-area: img2;
+}
+```
+
+Im HTML code werden die Abschnitte einfach ein Reihenfolge von oben links im Grid nach unten rechts untereinander aufgelistet. 
+
+Im ende sieht es dann so aus:
+
+![Dynamische text mit willkommens nachricht](./assets/dynamischerText1.png)
+![Dynamische text mit willkommens nachricht](./assets/dynamischerText2.png)
+
+---
+
