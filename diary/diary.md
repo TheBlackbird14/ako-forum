@@ -137,3 +137,32 @@ Dies macht die Website viel zugänglicher für Alle und ist einfacher von Anfang
 ---
 
 ## Montag 20 Februar 
+
+An den beiden letzten Tagen der Karnevalsferien habe ich weiter am developen der Seite gearbeitet. Am Montag habe ich die Karten zur Auswahl der Kurskategorien geschrieben. Hierbei habe ich mich wieder mit `display: flex` auseinander gesetzt. Dieses Mal mit einem besseren Verständnis und ein wenig Geduld habe ich es dieses Mal schneller Geschafft, etwas zu schreiben was funktioniert. Hier war anschließend das schwierige eher jeder Karte das entsprechende Hintergrundbild zu geben und dieses richtig zu positionieren und zu schattieren. Dazu habe ich statt dem im Design ursprünglich vorgesehenen shader (ein schwarzes svg mit 42% Transparenz) eine eher elegantere Lösung verwendet. 
+
+Diese funktioniert indem ich dem `div` die hintergrundfarbe schwarz gebe und diese mit RGBa angebe, so dass ich einen Transparenzwert eingeben kann, also `rgba(0, 0, 0, 0.42)`. Jetzt vermische ich beide hintergrundobjekte mit dem Argument `background-blend-mode: multiply;`. Insgesamt sieht dann der code für eine solche Karte wie folgt aus:
+
+```css
+.lernhaus {
+  background-image: url(./assets/imgs/logoLernhaus.png);
+  background-color: rgba(0, 0, 0, 0.42);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40%;
+}
+```
+
+`background-size: cover` sorgt dafür, dass das hintergrundbild so positioniert wird, dass es den gesamtem `div`füllt ohne sein Seitenverhältnis zu verletzen. Dies führt natürlich dazu, dass nicht unbedingt so viel vom Bild zu sehen ist, je nachdem wie der `div` gestreckt wird. `background-position: 40%` ist dazu da, das Bild horizontal zu positionieren. Wenn hier nichts wäre, würde man nur den linken Rand des Bildes sehen. Mit `background-position: center` würde man genau die Mitte sehen. `40%` ist ein wenig weiter links von der Mitte, also in diesem Fall genau wo ich das Bild haben möchte. 
+
+Am ende sehen die Karten so aus:
+
+![Kurskategorieauswahlkarten](./assets/kursKategorienAuswahlDev.png)
+
+Danach habe ich noch alle Links verbunden, also die im Header und natürlich die Karten. Hierzu habe ich auch schon mal die Dokumente für die Seiten der Kurskategorien erstellt. 
+
+---
+
+## Dienstag 21 Februar
+
+Am Dienstag habe ich dann an dem Willkommens text gearbeitet. Diesen hatte ich im Design noch nicht vorgesehen, und war eine sehr spontane Entscheidung. Er ist jetzt auch noch über den Kurskategorieauswahl Karten und ist auf der bestehenden Seite nur klein auf der rechten Seite dargestellt. Nach einer kleinen Skizze habe ich mich dazu entschieden den text etwas dynamischer darzustellen. Das heißt in der ersten Absatz der Text links und ein Bild von Herrn Tabatabei rechts, im zweiten Absatz den text rechts und links der Abschnitt zum Film über das Ako, welcher auch auch der bestehenden Seite gezeigt war. Dies hat sich als etwas komplizierter dargestellt, als ich gedacht hatte. 
