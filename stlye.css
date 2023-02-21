@@ -180,3 +180,26 @@ h2 {
   background-size: cover;
   background-position: 40%;
 }
+
+/* Welcome Text */
+
+.welcomeText > h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 7.8125vw;
+  color: #73264A;
+  padding: 3.3333333333vw 4.1666666667vw 1.1458333333vw 7.2916666667vw;
+
+}
+
+.wText {
+  font-family: Helvetica;
+  font-size: 2.0833333333vw;
+}
+
+.part1 {
+  padding-left: 7.2916666667vw;
+  width: 63.8541666667vw;
+  height: 24.8958333333vw;
+}
+
