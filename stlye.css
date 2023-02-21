@@ -40,7 +40,7 @@ header {
 .navLinks a {
   text-align: center;
   font-family: Helvetica Neue;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #FFFFFF;
   opacity: 1;
   text-decoration: none;
@@ -183,13 +183,21 @@ h2 {
 
 /* Welcome Text */
 
+.welcomeText {
+  padding-bottom: 3.3333333333vw;
+}
+
 .welcomeText > h1 {
   font-family: Helvetica;
   font-weight: bold;
   font-size: 7.8125vw;
   color: #73264A;
   padding: 3.3333333333vw 4.1666666667vw 1.1458333333vw 7.2916666667vw;
+}
 
+.welcomeText h2{
+  color: #73264A;
+  font-size: 2.6041666667vw;
 }
 
 .wText {
@@ -197,9 +205,47 @@ h2 {
   font-size: 2.0833333333vw;
 }
 
+
+/* grid for dynamic text */
+
+.dynamicText {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0.5208333333vw;
+
+  grid-template-areas: 
+  "p p img"
+  "img2 p2 p2";
+}
+
+
 .part1 {
   padding-left: 7.2916666667vw;
   width: 63.8541666667vw;
   height: 24.8958333333vw;
+  grid-area: p;
+}
+
+.part2 {
+  grid-area: p2;
+}
+
+.tabatabei {
+  grid-area: img;
+}
+
+.akoFilm {
+  padding-left: 7.2916666667vw;
+  grid-area: img2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.akoFilmImg {
+  width: 15.625vw;
 }
 
