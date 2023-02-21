@@ -200,11 +200,14 @@ h2 {
   font-size: 2.6041666667vw;
 }
 
-.wText {
+.wText{
   font-family: Helvetica;
   font-size: 2.0833333333vw;
 }
 
+.akoFilm {
+  font-size: 1.5625vw;
+}
 
 /* grid for dynamic text */
 
@@ -234,6 +237,7 @@ h2 {
 
 .tabatabei {
   grid-area: img;
+  width: 26.0416666667vw;
 }
 
 .akoFilm {
