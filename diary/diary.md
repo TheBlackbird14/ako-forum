@@ -233,3 +233,10 @@ Im ende sieht es dann so aus:
 
 ---
 
+## Mittwoch 22 Februar
+
+Heute habe ich nur die Abteilung zum TC Blau Weiß AKO, die Tennismannschaft unserer Schule, gemacht. Im Code war daran jetzt nichts wirklich kompliziert. Ich habe hier die gleichen Methoden verwendet, wie auf der Titelseite, denn vom Design her sind sie sich beide sehr ähnlich. So sieht der Abschnitt jetzt aus:
+
+![Die informationsseite zum TC Blau Weiß AKO](./assets/tennisSection.png)
+
+Bei diesem Abschnitt war das interessante eher die Farbwahl. Ich habe hier bewusst ein anderes Farbschema verwendet, um die Vereinsfarben des TC darzustellen. Die Überschrift und der Knopf sind ein eher dunkles Blau und der Untertitel ist hier ein kontrastreiches Weiß, allerdings nicht zu weiß und hell damit es nicht so grell wirkt (die genaue farbwahl ist hier `rgb(207, 207, 207)`). Ob ich mit genau diesen Farben zufrieden bin, weiß ich noch nicht, aber zur Not kann ich es ja noch ändern.
