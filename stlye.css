@@ -150,6 +150,10 @@ h2 {
   text-align: center;
 }
 
+.categorys > a {
+  text-decoration: none;
+}
+
 .offenes {
   background-image: url(./assets/imgs/hockeySlideshow.png);
   background-color: rgba(0, 0, 0, 0.42);
