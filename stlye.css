@@ -97,6 +97,7 @@ h2 {
   height: 4.1666666667vw;
   border: 1px solid #707070;
   margin-bottom: 16.6666666667vw;
+  cursor: grab;
 }
 
 .button a {
@@ -257,3 +258,37 @@ h2 {
   width: 15.625vw;
 }
 
+/* TC Blau Weiß AKO */
+
+.tennis {
+  background-image: url(./assets/imgs/tennis.png);
+  background-color: rgba(0, 0, 0, 0.42);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 52.2916666667vw;
+}
+
+.tennis > h1 {
+  color: #1111ff;
+  padding: 24.5833333333vw 0 0 7.2916666667vw;
+  font-size: 7.8125vw;
+}
+
+.tennis > h2 {
+  color: rgb(207, 207, 207);
+  padding: 0 0 0 7.2916666667vw;
+}
+
+.buttonTennis {
+  margin: 1.3020833333vw 0 0 7.2916666667vw;
+  width: 18.69791666667vw;
+  height: 4.166666667vw;
+  background: #5353FF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.82291666667vw;
+}

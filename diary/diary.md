@@ -6,16 +6,16 @@
 
 ## Inhalt
 
-1. Anfangs Phase
+1. [Anfangs Phase](#anfangs-phase)
     - [Vorarbeit/Vorwissen](#vorwissen)
     - [Einrichtung der Tools](#einrichtung)
-2. Konzept Phase
+2. [Konzept Phase](#konzept-phase)
     - [Erstes Kundengespräch](#Kundengespräch)
     - [Erstes Wireframe](#firstWireframe)
-3. Design Phase
+3. [Design Phase](#design-phase)
     - [Stunde vom **2.2**](#2.2)
     - [**3 - 5** Februar](#3.2-5.2)
-4. Developing Phase
+4. [Developing Phase](#developing-phase)
     - [**10 - 12** Februar](#10-12.2)
     - [**13 - 15** Februar](#13-15.2)
     - [**Montag 20 Februar**](#montag-20-februar)
@@ -62,6 +62,8 @@ In Anschluss an diese Gespräch habe ich am Nachmittag ein erstes schnelles wire
 ![Der 1. Entwurf der Landing Page in XD](./assets/forumErstesWireframe.png)
 
 ---
+
+# Design Phase
 
 ## Stunde vom **2.2** <a name="2.2"></a>
 
