@@ -55,7 +55,7 @@ header {
 
 .hero {
   background-image: url(./assets/imgs/bgImage.png);
-  background-color: rgba(0, 0, 0, 0.27);
+  background-color: rgba(0, 0, 0, 0.45);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-position: center;
