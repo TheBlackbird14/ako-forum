@@ -47,6 +47,10 @@ header {
   font-size: 1.5625vw;
 }
 
+.navItem:hover {
+  color: rgb(80, 80, 80);
+}
+
 .nav {
   margin-right: 5%;
 }
@@ -55,6 +59,7 @@ header {
 
 .hero {
   background-image: url(./assets/imgs/bgImage.png);
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.45);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
@@ -91,7 +96,6 @@ h2 {
   font-size: 3.90625vw;
 }
 
-
 .button {
   width: 11.5625vw;
   height: 4.1666666667vw;
@@ -109,6 +113,14 @@ h2 {
   margin-left: 35.3645833333vw;
 }
 
+.Blarge:hover {
+  background-color: #73264A;
+}
+
+.Blarge:hover > a {
+  color: black;
+}
+
 .Blarge > a {
   text-transform: uppercase;
   color: white;
@@ -119,6 +131,14 @@ h2 {
 .Bsmall{
   background: #DEDEDE 0% 0% no-repeat padding-box;
   margin-left: 3.0729166667vw;
+}
+
+.Bsmall:hover {
+  background-color: #343434;
+}
+
+.Bsmall:hover > a {
+  color: #DEDEDE;
 }
 
 .Bsmall > a {
@@ -289,7 +309,14 @@ h2 {
   border: 1px solid #707070;
   
   text-align: center;
+  font-family: "myriad pro";
+  font-weight: bold;
   color: white;
   text-transform: uppercase;
   font-size: 1.82291666667vw;
+}
+
+.buttonTennis:hover {
+  background-color: rgb(207, 207, 207);
+  color: #1111ff;
 }
