@@ -171,6 +171,41 @@ h2 {
   text-align: center;
 }
 
+/* hover animations */
+
+.offenes:hover {
+  animation-name: card1trans;
+  animation-duration: .1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.gemeinschaft:hover {
+  animation-name: card1trans;
+  animation-duration: .01s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.lernhaus:hover {
+  animation-name: card2trans;
+  animation-duration: .1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes card1trans {
+  from {background-size: 450%;}
+  to {background-size: 500%;}
+}
+
+@keyframes card2trans {
+  from {background-size: 120%;}
+  to {background-size: 140%;}
+}
+
+/* hover animations end */
+
 .categorys > a {
   text-decoration: none;
 }
