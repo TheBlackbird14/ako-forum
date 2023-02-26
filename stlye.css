@@ -387,3 +387,38 @@ footer a {
 .ghIcon {
   width: 5.2083333333333333333vw;
 }
+
+/* Kurs seiten */
+
+.kurseHero {
+  height: 31.25vw;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kurseHero h1 {
+  font-family: "bodoni-urw", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+}
+
+.offeneKurseHero {
+  background-image: url(./assets/imgs/fussballSlideshow.png);
+  background-color: rgba(0, 0, 0, .35);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.courseCards {
+  display: flex;
+}
+
+.courseCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
