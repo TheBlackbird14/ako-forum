@@ -340,13 +340,13 @@ h2 {
   margin: 1.3020833333vw 0 0 7.2916666667vw;
   width: 18.69791666667vw;
   height: 4.166666667vw;
-  background: #5353FF 0% 0% no-repeat padding-box;
+  background: #1111ff 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   
   text-align: center;
   font-family: "myriad pro";
   font-weight: bold;
-  color: white;
+  color: rgb(207, 207, 207);
   text-transform: uppercase;
   font-size: 1.82291666667vw;
 
@@ -386,6 +386,10 @@ footer a {
 
 .ghIcon {
   width: 5.2083333333333333333vw;
+}
+
+.ghIcon:hover {
+  filter: invert(100%);
 }
 
 /* Kurs seiten */
