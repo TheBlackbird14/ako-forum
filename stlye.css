@@ -403,10 +403,22 @@ footer a {
   font-weight: 400;
   font-style: normal;
   color: whitesmoke;
+  text-align: center;
 }
 
 .offeneKurseHero {
   background-image: url(./assets/imgs/fussballSlideshow.png);
+}
+
+.kollegsgemeinschaftKurseHero {
+  background-image: url(./assets/imgs/theaterSlideshow.png);
+}
+
+.lernhausKurseHero {
+  background-image: none;
+}
+
+.kurseHero {
   background-color: rgba(0, 0, 0, .35);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
@@ -423,8 +435,22 @@ footer a {
   flex-direction: column;
   max-width: 500px;
   padding: 10px;
-  border: 1px solid red;
+  border: 1px solid black;
   margin: 10px;
+  border-radius: 20px;
+}
+
+.courseCard > img {
+  border-radius: 20px;
+}
+
+.courseCard > h3 {
+  padding-top: 10px;
+  font-size: 0.975vw;
+}
+
+.courseCard > p {
+  font-size: 0.83333vw;
 }
 
 /* bestimmt die größe der karten und entsprechend die menge die nebeneinander dargestellt werden kann */
@@ -432,12 +458,22 @@ footer a {
 @media screen and (max-width:425px) {
   .courseCard {
     width: calc(100% * (1/1) - (10px + 1px + 10px));
+    border-radius: 10px;
+  }
+
+  .courseCard > img {
+    border-radius: 10px;
   }
 }
 
 @media screen and (min-width:425px) {
   .courseCard {
     width: calc(100% * (1/2) - (10px + 1px + 10px));
+    border-radius: 13px;
+  }
+
+  .courseCard > img {
+    border-radius: 13px;
   }
 }
 
