@@ -388,6 +388,10 @@ footer a {
   width: 5.2083333333333333333vw;
 }
 
+.ghIcon:hover {
+  filter: invert(100%);
+}
+
 /* Kurs seiten */
 
 .kurseHero {
