@@ -392,6 +392,14 @@ footer a {
   filter: invert(100%);
 }
 
+/* kleines Abteil um die version anzugeben */
+
+.version {
+  background-color: #80A62E;
+  color: #DEDEDE;
+  font-size: smaller;
+}
+
 /* Kurs seiten */
 
 .kurseHero {
