@@ -1,3 +1,5 @@
+/* CSS um Attribute global zurück zu setzen, damit der browser keine presets an macht und das design durcheinander bringt */
+
 html {
   scroll-behavior: smooth;
 }
@@ -77,7 +79,7 @@ h1 {
   font-family: "myriad-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #18BF12;
+  color: #80A62E;
   font-size: 10.41667vw;
 }
 
@@ -148,9 +150,9 @@ h2 {
   font-size: 1.5625vw;
 }
 
-/*kursauswahl cards*/
+/*kursauswahl Karten*/
 
-.categorys {
+.categorys { /* der gesamte div */
   display: flex;
   gap: 2.7604166667vw;
   padding: 5.8333333333vw 2.65625vw;
@@ -171,7 +173,7 @@ h2 {
   text-align: center;
 }
 
-/* hover animations */
+/* hover animations für die Karten*/
 
 .offenes:hover {
   animation-name: card1trans;
@@ -204,7 +206,7 @@ h2 {
   to {background-size: 140%;}
 }
 
-/* hover animations end */
+/* hover animations Ende */
 
 .categorys > a {
   text-decoration: none;
@@ -260,14 +262,11 @@ h2 {
   font-size: 2.6041666667vw;
 }
 
-.wText{
+.wText{ /* die <p> elemente im dynmaischen text */
   font-family: Helvetica;
   font-size: 2.0833333333vw;
 }
 
-.akoFilm {
-  font-size: 1.5625vw;
-}
 
 /* grid for dynamic text */
 
@@ -278,12 +277,25 @@ h2 {
   grid-column-gap: 0;
   grid-row-gap: 1.5208333333333286vw;
   align-items: end;
-
+  
   grid-template-areas: 
   "p p img"
   "img2 p2 p2";
 }
 
+.akoFilm { /* der link zum Ako Film */
+  font-size: 1.5625vw;
+  padding-left: 7.2916666667vw;
+  grid-area: img2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.akoFilmImg {
+  width: 15.625vw;
+}
 
 .part1 {
   padding-left: 7.2916666667vw;
@@ -301,18 +313,6 @@ h2 {
   width: 26.0416666667vw;
 }
 
-.akoFilm {
-  padding-left: 7.2916666667vw;
-  grid-area: img2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.akoFilmImg {
-  width: 15.625vw;
-}
 
 /* TC Blau Weiß AKO */
 
@@ -385,7 +385,7 @@ footer a {
 }
 
 .ghIcon {
-  width: 5.2083333333333333333vw;
+  width: 5.208333vw;
 }
 
 .ghIcon:hover {
@@ -400,6 +400,11 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: rgba(0, 0, 0, .35);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .kurseHero h1 {
@@ -420,13 +425,6 @@ footer a {
 
 .lernhausKurseHero {
   background-image: none;
-}
-
-.kurseHero {
-  background-color: rgba(0, 0, 0, .35);
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .courseCards {
@@ -457,7 +455,7 @@ footer a {
   font-size: 0.83333vw;
 }
 
-/* bestimmt die größe der karten und entsprechend die menge die nebeneinander dargestellt werden kann */
+/* bestimmt die größe der karten und entsprechend die menge die nebeneinander dargestellt werden kann (näheres im Projekttagebuch)*/
 
 @media screen and (max-width:425px) {
   .courseCard {
