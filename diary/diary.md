@@ -1,6 +1,8 @@
 # Projekttagebuch
 
-Die Dokumentation meiner Arbeit zur Projektarbeit html
+## Ako Forum
+
+Ein Projekt von Mika Jessel für Arash Tabatabaei.
 
 ---
 
@@ -25,6 +27,8 @@ Die Dokumentation meiner Arbeit zur Projektarbeit html
     - [Sonntag **26** Februar](#sonntag-26-februar)
 5. Integration Phase
 6. Veröffentlichung
+
+Quellen sind unter [sources.md](sources.md), bzw. der [Quellen Seite](../sources.html), wenn sie im Browser sind.
 
 ---
 
